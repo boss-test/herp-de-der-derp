@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: herp-de-der-derp
+  description: herp-de-der-derp
+  annotations: 
+    github.com/project-slug: boss-test/herp-de-der-derp
+    backstage.io/github-actions-id: boss-test/herp-de-der-derp
+spec:
+  type: service
+  lifecycle: experimental
+  owner: boss-test
